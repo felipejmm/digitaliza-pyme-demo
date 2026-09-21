@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Demo de landing page para un servicio de digitalización de pymes en España.">
+  <title>Impulso Pyme | Digitalización clara y útil</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Impulso Pyme, inicio">
+      <span class="brand-mark">IP</span>
+      <span>Impulso Pyme</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menú</button>
+    <nav id="main-nav" class="main-nav" aria-label="Navegación principal">
+      <a href="#servicios">Servicios</a>
+      <a href="#proceso">Cómo trabajamos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Digitalización para pymes en España</p>
+        <h1>Menos tareas repetitivas.<br><span>Más tiempo para tu negocio.</span></h1>
+        <p class="hero-lead">Convertimos procesos manuales en soluciones digitales sencillas: organización, automatización, presencia web y formación para tu equipo.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#contacto">Solicita un diagnóstico</a>
+          <a class="button button-secondary" href="#servicios">Ver servicios</a>
+        </div>
+        <ul class="trust-list" aria-label="Ventajas principales">
+          <li>Sin jerga técnica</li>
+          <li>Soluciones a medida</li>
+          <li>Acompañamiento cercano</li>
+        </ul>
+      </div>
+      <div class="hero-panel" aria-label="Ejemplo de mejora operativa">
+        <div class="panel-top">
+          <span>Panel de trabajo</span>
+          <span class="status"><i></i> Actualizado</span>
+        </div>
+        <div class="metric"><span>Horas ahorradas este mes</span><strong>28 h</strong><small>Procesos automatizados</small></div>
+        <div class="progress"><span style="width: 74%"></span></div>
+        <div class="mini-grid">
+          <article><span>Facturas</span><strong>86</strong><small>Organizadas</small></article>
+          <article><span>Seguimientos</span><strong>24</strong><small>Automáticos</small></article>
+        </div>
+        <div class="activity"><span class="activity-icon">✓</span><div><strong>Informe semanal generado</strong><small>Hoy, 09:00</small></div></div>
+      </div>
+    </section>
+
+    <section id="servicios" class="section services">
+      <div class="section-heading">
+        <p class="eyebrow">Servicios</p>
+        <h2>Digitalizamos lo que de verdad frena tu día a día</h2>
+        <p>Empezamos por tus necesidades reales y elegimos herramientas que tu equipo pueda usar.</p>
+      </div>
+      <div class="card-grid">
+        <article class="service-card"><span>01</span><h3>Procesos y automatización</h3><p>Reducimos tareas manuales en administración, ventas, clientes y seguimiento.</p></article>
+        <article class="service-card featured"><span>02</span><h3>Organización de la información</h3><p>Centralizamos documentos, datos y tareas para que todo esté localizado y actualizado.</p></article>
+        <article class="service-card"><span>03</span><h3>Web y presencia digital</h3><p>Creamos o mejoramos tu web para explicar bien lo que haces y captar oportunidades.</p></article>
+        <article class="service-card"><span>04</span><h3>Formación práctica</h3><p>Enseñamos a tu equipo a usar las nuevas herramientas con seguridad y autonomía.</p></article>
+      </div>
+    </section>
+
+    <section class="results-band" aria-label="Resultados del servicio">
+      <p>La tecnología debe simplificar, no complicar.</p>
+      <div><strong>+40</strong><span>procesos revisados</span></div>
+      <div><strong>30%</strong><span>menos tareas manuales*</span></div>
+      <div><strong>1 a 1</strong><span>acompañamiento</span></div>
+      <small>*Dato ilustrativo para esta demo.</small>
+    </section>
+
+    <section id="proceso" class="section process">
+      <div class="section-heading narrow">
+        <p class="eyebrow">Un proceso sencillo</p>
+        <h2>De la necesidad a una solución que funciona</h2>
+      </div>
+      <ol class="steps">
+        <li><span>1</span><div><h3>Escuchamos</h3><p>Revisamos contigo qué tareas consumen más tiempo y dónde se producen errores.</p></div></li>
+        <li><span>2</span><div><h3>Priorizamos</h3><p>Proponemos mejoras concretas, con alcance, plazos y costes comprensibles.</p></div></li>
+        <li><span>3</span><div><h3>Implantamos</h3><p>Configuramos la solución, hacemos pruebas y la adaptamos a tu forma de trabajar.</p></div></li>
+        <li><span>4</span><div><h3>Te acompañamos</h3><p>Formamos al equipo y resolvemos dudas para consolidar el cambio.</p></div></li>
+      </ol>
+    </section>
+
+    <section id="contacto" class="contact-section">
+      <div class="contact-copy">
+        <p class="eyebrow">Hablemos</p>
+        <h2>Cuéntanos qué quieres mejorar</h2>
+        <p>Te responderemos con una primera valoración, sin compromiso y en un lenguaje claro.</p>
+        <p class="demo-note">Demo: sustituye estos datos por los definitivos.</p>
+        <a href="mailto:hola@impulsopyme.es">hola@impulsopyme.es</a>
+        <a href="tel:+34954000000">954 000 000</a>
+      </div>
+      <form class="contact-form" id="contact-form">
+        <label>Nombre y empresa<input name="name" type="text" autocomplete="name" required placeholder="Tu nombre"></label>
+        <label>Correo electrónico<input name="email" type="email" autocomplete="email" required placeholder="nombre@empresa.es"></label>
+        <label>¿Qué necesitas mejorar?<textarea name="message" rows="4" required placeholder="Cuéntanos brevemente tu situación"></textarea></label>
+        <label class="privacy"><input type="checkbox" required> He leído y acepto la política de privacidad.</label>
+        <button class="button button-primary" type="submit">Enviar consulta</button>
+        <p id="form-message" class="form-message" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer><span>© 2026 Impulso Pyme · Sitio de demostración</span><a href="#inicio">Volver arriba ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
